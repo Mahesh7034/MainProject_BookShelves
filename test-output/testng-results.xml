@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-17T17:14:40 IST" name="Default suite" finished-at="2025-07-17T17:17:55 IST" duration-ms="194789">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@4c012563]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-07-17T17:14:40 IST" name="Default test" finished-at="2025-07-17T17:17:55 IST" duration-ms="194789">
+      <class name="TestRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.TestRunner@4c012563]" started-at="2025-07-17T17:14:40 IST" name="setUpClass" finished-at="2025-07-17T17:14:41 IST" duration-ms="864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@14df5253]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@4c012563]" started-at="2025-07-17T17:14:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T17:15:10 IST" duration-ms="29201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filter bookshelves by storage type, price, and availability"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Urban Ladder shopping and filtering experience"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@4c012563]" started-at="2025-07-17T17:15:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T17:15:21 IST" duration-ms="11471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["View top 3 study chairs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Urban Ladder shopping and filtering experience"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@4c012563]" started-at="2025-07-17T17:15:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T17:15:33 IST" duration-ms="11784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search and view Being At Home categories"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Urban Ladder shopping and filtering experience"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@4c012563]" started-at="2025-07-17T17:15:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T17:16:54 IST" duration-ms="80532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add Being At Home item to cart and proceed to checkout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Urban Ladder shopping and filtering experience"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@4c012563]" started-at="2025-07-17T17:16:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T17:17:54 IST" duration-ms="60815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["View social media links from footer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Urban Ladder shopping and filtering experience"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.TestRunner@4c012563]" started-at="2025-07-17T17:17:54 IST" name="tearDownClass" finished-at="2025-07-17T17:17:55 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestRunner.TestRunner@4c012563]" started-at="2025-07-17T17:17:55 IST" name="afterSuite" finished-at="2025-07-17T17:17:55 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestRunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

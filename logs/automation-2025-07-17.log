@@ -1,0 +1,9 @@
+17:04:59.687 [main] INFO  StepDefinitions.ConnectWithUsDefinition - Displaying The list of social media Platforms
+17:15:06.196 [main] INFO  StepDefinitions.BookShelvesDefinition - Displaying The top Three BookShelves With names and prices
+17:15:18.610 [main] INFO  StepDefinitions.StudyChairsDefinition - Displaying The Top Three Study Chairs
+17:15:30.323 [main] INFO  StepDefinitions.BeingAtHomeDefinition - Retrieving all the sub-menu items of Being at Home
+17:16:51.343 [main] INFO  StepDefinitions.CheckOutPageDefinition - Displaying Invalid Error Message
+17:17:50.633 [main] INFO  StepDefinitions.ConnectWithUsDefinition - Displaying The list of social media Platforms
+17:50:54.164 [main] INFO  StepDefinitions.BookShelvesDefinition - Displaying The top Three BookShelves With names and prices
+17:51:45.248 [main] INFO  StepDefinitions.StudyChairsDefinition - Displaying The Top Three Study Chairs
+17:52:25.500 [main] INFO  StepDefinitions.BeingAtHomeDefinition - Retrieving all the sub-menu items of Being at Home

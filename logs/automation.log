@@ -1,0 +1,4 @@
+17:28:00.807 [main] INFO  StepDefinitions.StudyChairsDefinition - Displaying The Top Three Study Chairs
+17:28:18.564 [main] INFO  StepDefinitions.BeingAtHomeDefinition - Retrieving all the sub-menu items of Being at Home
+17:28:39.603 [main] INFO  StepDefinitions.CheckOutPageDefinition - Displaying Invalid Error Message
+17:28:49.302 [main] INFO  StepDefinitions.ConnectWithUsDefinition - Displaying The list of social media Platforms

@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"  As a user of the Urban Ladder website
+  I want to browse, filter, and purchase items
+  So that I can find products that match my preferences","41521","Filter the products by storage,price and availability","","Sun Jul 20 17:27:02 IST 2025","passed","Sun Jul 20 17:27:44 IST 2025","","Urban Ladder shopping and filtering experience","Filter the products by storage,price and availability",""
+"","18078","Search and view Being At Home categories","","Sun Jul 20 17:28:04 IST 2025","passed","Sun Jul 20 17:28:22 IST 2025","","Urban Ladder shopping and filtering experience","Search and view Being At Home categories",""
+"","7454","View social media links from footer","","Sun Jul 20 17:28:44 IST 2025","passed","Sun Jul 20 17:28:51 IST 2025","","Urban Ladder shopping and filtering experience","View social media links from footer",""
+"","21760","Add an item to cart and proceed to checkout","","Sun Jul 20 17:28:22 IST 2025","passed","Sun Jul 20 17:28:44 IST 2025","","Urban Ladder shopping and filtering experience","Add an item to cart and proceed to checkout",""
+"","20413","View top 3 study chairs","","Sun Jul 20 17:27:44 IST 2025","passed","Sun Jul 20 17:28:04 IST 2025","","Urban Ladder shopping and filtering experience","View top 3 study chairs",""
