@@ -1,0 +1,12 @@
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.urbanLadder.reRun.RetryListener"></listener>
+	</listeners>
+	<test name="ChromeTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="TestRunner.TestRunner" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

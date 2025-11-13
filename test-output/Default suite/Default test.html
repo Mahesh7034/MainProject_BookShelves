@@ -1,0 +1,176 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/8/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 17 18:52:47 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2420 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Filter bookshelves by storage type", "Urban Ladder shopping and filtering experience"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.urbanLadder.utils.DriverSetup.driverInstantiate(DriverSetup.java:67)
+	at com.urbanLadder.hooks.Hook.setUp(Hook.java:33)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1083292099", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1083292099'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.urbanLadder.utils.DriverSetup.driverInstantiate(DriverSetup.java:67)
+	at com.urbanLadder.hooks.Hook.setUp(Hook.java:33)
+</pre></div></td>
+<td>0</td>
+<td>TestRunner.TestRunner@4c012563</td></tr>
+<tr>
+<td title='TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search and view Being At Home categories", "Urban Ladder shopping and filtering experience"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.urbanLadder.utils.DriverSetup.driverInstantiate(DriverSetup.java:67)
+	at com.urbanLadder.hooks.Hook.setUp(Hook.java:33)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2027549979", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2027549979'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.urbanLadder.utils.DriverSetup.driverInstantiate(DriverSetup.java:67)
+	at com.urbanLadder.hooks.Hook.setUp(Hook.java:33)
+</pre></div></td>
+<td>0</td>
+<td>TestRunner.TestRunner@4c012563</td></tr>
+<tr>
+<td title='TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View social media links from footer", "Urban Ladder shopping and filtering experience"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.urbanLadder.utils.DriverSetup.driverInstantiate(DriverSetup.java:67)
+	at com.urbanLadder.hooks.Hook.setUp(Hook.java:33)
+</pre></div><a href='#' onClick='toggleBox("stack-trace953191605", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace953191605'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.urbanLadder.utils.DriverSetup.driverInstantiate(DriverSetup.java:67)
+	at com.urbanLadder.hooks.Hook.setUp(Hook.java:33)
+</pre></div></td>
+<td>0</td>
+<td>TestRunner.TestRunner@4c012563</td></tr>
+<tr>
+<td title='TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View top 3 study chairs", "Urban Ladder shopping and filtering experience"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.urbanLadder.utils.DriverSetup.driverInstantiate(DriverSetup.java:67)
+	at com.urbanLadder.hooks.Hook.setUp(Hook.java:33)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1657218305", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1657218305'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.urbanLadder.utils.DriverSetup.driverInstantiate(DriverSetup.java:67)
+	at com.urbanLadder.hooks.Hook.setUp(Hook.java:33)
+</pre></div></td>
+<td>0</td>
+<td>TestRunner.TestRunner@4c012563</td></tr>
+<tr>
+<td title='TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add Being At Home item to cart and proceed to checkout", "Urban Ladder shopping and filtering experience"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.urbanLadder.utils.DriverSetup.driverInstantiate(DriverSetup.java:67)
+	at com.urbanLadder.hooks.Hook.setUp(Hook.java:33)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1992235960", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1992235960'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.urbanLadder.utils.DriverSetup.driverInstantiate(DriverSetup.java:67)
+	at com.urbanLadder.hooks.Hook.setUp(Hook.java:33)
+</pre></div></td>
+<td>0</td>
+<td>TestRunner.TestRunner@4c012563</td></tr>
+<tr>
+<td title='TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the Urban Ladder homepage loads with all key UI elements", "Urban Ladder shopping and filtering experience"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.urbanLadder.utils.DriverSetup.driverInstantiate(DriverSetup.java:67)
+	at com.urbanLadder.hooks.Hook.setUp(Hook.java:33)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1659969211", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1659969211'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.urbanLadder.utils.DriverSetup.driverInstantiate(DriverSetup.java:67)
+	at com.urbanLadder.hooks.Hook.setUp(Hook.java:33)
+</pre></div></td>
+<td>1</td>
+<td>TestRunner.TestRunner@4c012563</td></tr>
+<tr>
+<td title='TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Filter bookshelves by price", "Urban Ladder shopping and filtering experience"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.urbanLadder.utils.DriverSetup.driverInstantiate(DriverSetup.java:67)
+	at com.urbanLadder.hooks.Hook.setUp(Hook.java:33)
+</pre></div><a href='#' onClick='toggleBox("stack-trace208181619", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace208181619'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.urbanLadder.utils.DriverSetup.driverInstantiate(DriverSetup.java:67)
+	at com.urbanLadder.hooks.Hook.setUp(Hook.java:33)
+</pre></div></td>
+<td>0</td>
+<td>TestRunner.TestRunner@4c012563</td></tr>
+<tr>
+<td title='TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Filter bookshelves by availability", "Urban Ladder shopping and filtering experience"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.urbanLadder.utils.DriverSetup.driverInstantiate(DriverSetup.java:67)
+	at com.urbanLadder.hooks.Hook.setUp(Hook.java:33)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1906565212", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1906565212'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.urbanLadder.utils.DriverSetup.driverInstantiate(DriverSetup.java:67)
+	at com.urbanLadder.hooks.Hook.setUp(Hook.java:33)
+</pre></div></td>
+<td>0</td>
+<td>TestRunner.TestRunner@4c012563</td></tr>
+</table><p>
+</body>
+</html>
